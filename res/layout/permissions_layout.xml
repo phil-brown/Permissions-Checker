@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <ImageView 
+    android:id="@+id/image_alert"
+    android:adjustViewBounds="true"
+    android:src="@drawable/warning"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="10dp"
+    android:padding="5dp" />
+  <TextView 
+    android:id="@+id/message"
+    android:text="Alert Message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignBottom="@id/image_alert"
+    android:layout_toRightOf="@id/image_alert"
+    android:layout_margin="10dp"
+    android:padding="5dp" />
+  <TextView 
+    android:id="@+id/danger_rating"
+    android:text="Danger Rating"
+    android:textColor="#FF0000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/message"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:padding="10dp" />
+  <ListView
+    android:id="@android:id/list"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/danger_rating"
+    android:layout_above="@+id/i_dont_care"
+    android:layout_margin="10dp"
+    android:padding="5dp" />
+  <Button 
+    android:id="@+id/remove_app"
+    android:text="Uninstall Application"
+    android:background="#33FF00"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="10dp"
+    android:padding="10dp" />
+  <Button 
+    android:id="@+id/i_dont_care"
+    android:text="Keep Application"
+    android:background="#FFFF00"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_above="@id/remove_app"
+    android:layout_margin="10dp"
+    android:padding="10dp" />
+</RelativeLayout>
