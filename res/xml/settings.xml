@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Settings" >
+    <ListPreference
+           android:title="Minimum Danger Level"
+           android:summary="Set the minumum danger level needed for Permissions Checker to display."
+           android:key="minimum_danger_level"
+           android:defaultValue="1"
+           android:entries="@array/danger_levels"
+           android:entryValues="@array/danger_level_values" /> 
+    <ListPreference
+           android:title="Permissions Checker Layout"
+           android:summary="Set the layout to be displayed by Permissions Checker (debug)."
+           android:key="layout_id"
+           android:defaultValue="random"
+           android:entries="@array/layout_ids"
+           android:entryValues="@array/layout_id_values" /> 
+  </PreferenceCategory>
+  
+</PreferenceScreen>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: Phil Brown -->
+<resources>
+    <string-array name="danger_levels">
+      <item>0.0 No Threat</item>
+      <item>0.5</item>
+      <item>1</item>
+      <item>1.5</item>
+      <item>2</item>
+      <item>2.5</item>
+      <item>3</item>
+      <item>3.5</item>
+      <item>4</item>
+      <item>4.5 Moderately Dangerous</item>
+      <item>5</item>
+      <item>5.5</item>
+      <item>6</item>
+      <item>6.5</item>
+      <item>7</item>
+      <item>7.5</item>
+      <item>8</item>
+      <item>8.5</item>
+      <item>9 Very Dangerous</item>
+    </string-array>
+    
+    <string-array name="danger_level_values">
+      <item>0.0</item>
+      <item>0.5</item>
+      <item>1</item>
+      <item>1.5</item>
+      <item>2</item>
+      <item>2.5</item>
+      <item>3</item>
+      <item>3.5</item>
+      <item>4</item>
+      <item>4.5</item>
+      <item>5</item>
+      <item>5.5</item>
+      <item>6</item>
+      <item>6.5</item>
+      <item>7</item>
+      <item>7.5</item>
+      <item>8</item>
+      <item>8.5</item>
+      <item>9</item>
+    </string-array>
+    
+    <string-array name="layout_ids">
+      <item>random</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+    </string-array>
+    
+    <string-array name="layout_id_values">
+      <item>-1</item>
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+    </string-array>
+</resources>
